@@ -4,7 +4,7 @@ class BootstrapForm extends Form
 {
     protected function surround($html)
     {
-        return "<div class=\"mb-3\">{$html}</div>";
+        return "<div class=\"mb-3 col-5 mt-3 alert alert-warning\">{$html}</div>";
     }
 
     public function input($name)
@@ -30,3 +30,6 @@ class BootstrapForm extends Form
         );
     }
 }
+
+
+?>
