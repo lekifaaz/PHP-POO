@@ -52,5 +52,5 @@ return $chiffre .self::$suffix;
 
 
 }
-
+?>
 
