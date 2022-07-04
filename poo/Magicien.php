@@ -24,3 +24,5 @@ echo "<p>".$this->nom."attaque".$cible->nom."</p>";
 
 
 }
+
+?>
